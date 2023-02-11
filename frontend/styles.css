@@ -1,0 +1,178 @@
+* {
+  background-color:rgb(35,35,35);
+  box-sizing: border-box;
+  border: 0px solid white;
+}
+
+h1{
+  font-family: "Arial Black";
+}
+
+body{
+  background-color:rgb(35,35,35);
+  color:white;
+  font-family: verdana;
+  
+}
+
+div{
+  background-color:rgb(35,35,35);
+  display: inline-block;
+  float: left;
+  margin: 2.5% 0% 2.5% 0%;
+  white-space: nowrap;
+}
+
+.borderless{
+	border: 0px black solid;
+}
+
+.flex-container{
+  display: inline-flex;
+  align-items: center;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.left{
+  justify-content: left;
+}
+
+.center{
+  justify-content: center;
+}
+
+input {
+  display: inline-block;
+  height: 25px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.rc {
+	background-color: rgb(180,180,180);
+	border: 2px solid rgb(100,100,100);
+	border-radius: 25px;
+}
+
+.rc:hover{
+	background-color: rgb(100,100,100);
+	border: 2px solid rgb(180,180,180);
+}
+
+input{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+form {
+	margin: 0 auto;
+  padding: 0px 0px;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+select{
+  display: inline-block;
+  height: 25px;
+  box-sizing: border-box;
+}
+
+label {
+  box-sizing: border-box;
+}
+
+table {
+	background-color:rgb(180,180,180);
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px solid #ccc;
+}
+
+table th {
+  border: 2px solid rgb(100,100,100);
+  color: black;
+  background-color: rgb(180,180,180);
+}
+
+table td {
+  border: 2px solid rgb(100,100,100);
+  color: black;
+  background-color: rgb(180,180,180);
+}
+
+table tr {
+  border: 2px solid rgb(100,100,100);
+}
+button {
+  background-color: rgb(180,180,180);
+  border: 2px solid rgb(100,100,100);
+}
+
+button:hover {
+	background-color: rgb(100,100,100);
+	border: 2px solid rgb(180,180,180);
+}
+.rc {
+	border-radius: 25px;
+}
+
+.rc:hover{
+	background-color: rgb(100,100,100);
+	border: 2px solid rgb(180,180,180);
+}
+
+.danger{
+	color:red;
+	background-color: rgb(100,100,100);
+}
+
+.danger:hover {
+	color:white;
+	background-color:red;
+}
+
+.addques{
+	color:rgb(0,255,64);
+	background-color: rgb(100,100,100);
+}
+
+.addques:hover {
+	color:black;
+	background-color:rgb(0,255,64);
+}
+	
+textarea {
+	background-color:white;
+	color: black;
+}
+
+.rev{
+	max-width:100%;
+	min-width:100%;
+	max-height:500px;
+	height:100%;
+	margin:0px;
+	resize:both;
+}
+select {
+	background-color: white;
+	color: black;
+}
+
+select option{
+	background-color:white;
+	color: black;
+}
+	
