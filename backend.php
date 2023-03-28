@@ -5,9 +5,9 @@ ini_set('display_errors' , 1);
 
 //DB credentials
 $hostname = 'sql1.njit.edu';	   
-$username = 'ek257';
-$project  = 'ek257';
-$pass = 'Backend123!';
+$username = '';
+$project  = '';
+$pass = '';
 
 
 //Connects the PHP script to the DB to execute SQL statements
